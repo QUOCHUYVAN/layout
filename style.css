@@ -1,0 +1,89 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.right-section{
+  background-color: lightblue;
+}
+.title{
+  text-align: center;
+  margin-bottom: 24px;
+}
+.left-section{
+  background-color: lightpink;
+  display: grid;
+  grid-template-rows: 1fr, 500px;
+  text-align: center;
+}
+.author-picture{
+  border-radius: 16px;
+  width: auto;
+  height: 300px;
+  margin-right: 26px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+}
+.name-corner{
+  text-align: start;
+  margin-bottom: 8px;
+}
+.name-career{
+  font-size: 10px;
+  margin-top: 8px;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: all 0.2 ease;
+  display: inline-block;
+}
+.name-career:hover{
+  box-shadow: 5px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.name-career:active{
+  opacity: 0.5;
+}
+.privacy{
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.button-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.custom-button{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 300px;
+  padding: 12px;
+  background-color: white;
+  border: 1px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s;
+}
+.custom-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.footer-1{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.fa{
+  text-decoration: none;
+  color: black;
+}
+
